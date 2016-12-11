@@ -13,8 +13,9 @@ The following are the prerequisites before starting with this project/tutorial.
 ## Assets used
 You can safely substitute any assets you'd like, such as from [OpenGameArt.org][oga], but I'll be using the [Lucky Bestiary - GB - JRPG Monster Pack][lucky-enemies], which is available for purchase from itch.io for a very low cost.
 
-
-
+## Tutorial contents
+- [Part One: New Project](part-1), in progress
+- Part Two: tbd
 
 [vscode]: http://code.visualstudio.com/docs/setup/setup-overview
 [nodejs]: https://nodejs.org/en/download/
