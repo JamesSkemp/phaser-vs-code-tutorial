@@ -10,8 +10,14 @@ The following are the prerequisites before starting with this project/tutorial.
 - [Install Node.js][nodejs]
 - [Install TypeScript][typescript]
 
+## Assets used
+You can safely substitute any assets you'd like, such as from [OpenGameArt.org][oga], but I'll be using the [Lucky Bestiary - GB - JRPG Monster Pack][lucky-enemies], which is available for purchase from itch.io for a very low cost.
+
+
 
 
 [vscode]: http://code.visualstudio.com/docs/setup/setup-overview
 [nodejs]: https://nodejs.org/en/download/
 [typescript]: http://www.typescriptlang.org/index.html#download-links
+[oga]: http://opengameart.org/
+[lucky-enemies]: https://luckycassette.itch.io/lucky-bestiary-gb
