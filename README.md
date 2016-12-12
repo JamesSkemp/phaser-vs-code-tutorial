@@ -16,7 +16,8 @@ You can safely substitute any assets you'd like, such as from [OpenGameArt.org][
 ## Tutorial contents
 - [Part One: Game Idea](part-one)
 - [Part Two: New Project](part-two)
-- Part Three: tbd
+- [Part Three: Prepping Assets](part-three)
+- Part Four: tbd
 
 [vscode]: http://code.visualstudio.com/docs/setup/setup-overview
 [nodejs]: https://nodejs.org/en/download/

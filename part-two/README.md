@@ -21,8 +21,7 @@ We should now be able to browse to http://localhost:8000/ and view an empty page
 What we will see in the console is logging about Phaser starting up, with library version information, and then some information about the three states that are entered. Since the project we're using has a Boot, Preloader, and MainMenu state, we see all three listed. We'll go into the key parts of these states later.
 
 ## Next Steps
-
-> To be determined.
+In [part three](../part-three) we'll start prepping our assets, getting ready to include them in our game.
 
 ## What the _Starter VS Code Project Provides
 - assets
