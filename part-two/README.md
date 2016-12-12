@@ -1,4 +1,4 @@
-# Part One: New Project
+# Part Two: New Project
 In order to simplify things, we'll be using a basic starter project for our new project.
 
 [My Phaser Tutorials on GitHub](https://github.com/JamesSkemp/PhaserTutorials) includes a couple starter projects. We'll use the [_Starter VS Code](https://github.com/JamesSkemp/PhaserTutorials/tree/master/_Starter%20VS%20Code) project for the benefits it includes, which are detailed below.
@@ -6,7 +6,7 @@ In order to simplify things, we'll be using a basic starter project for our new 
 ## Starting the New Project
 To start our new project we'll grab a copy of the [_Starter VS Code](https://github.com/JamesSkemp/PhaserTutorials/tree/master/_Starter%20VS%20Code) project, renaming the directory to whatever you would like to call your game.
 
-For the purposes of this tutorial I'll be naming the directory based upon what part of the tutorial we're on, so I'll rename mine to **part-one**.
+For the purposes of this tutorial I'll be naming the directory based upon what part of the tutorial we're on, so I'll rename mine to **part-two**.
 
 With the directory copied we can then open it in Visual Studio Code and run the build task (Shift + Command + B on MacOS). This will generate a new file, **app.js** in the root of the directory that the index.html file points to by default, and which contains all of the compiled TypeScript code.
 
@@ -21,7 +21,8 @@ We should now be able to browse to http://localhost:8000/ and view an empty page
 What we will see in the console is logging about Phaser starting up, with library version information, and then some information about the three states that are entered. Since the project we're using has a Boot, Preloader, and MainMenu state, we see all three listed. We'll go into the key parts of these states later.
 
 ## Next Steps
-In our next part we'll start going over the game/project we'll be creating, determining what we might need for it. While we may have done this as part one, I already have an idea of what we'll be creating, so I'll be detailing it instead.
+
+> To be determined.
 
 ## What the _Starter VS Code Project Provides
 - assets
