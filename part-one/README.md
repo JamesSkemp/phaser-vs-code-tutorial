@@ -14,21 +14,14 @@ On MacOS X we can use Python to run the site locally to verify that the starter 
 
 	python -m SimpleHTTPServer 8000
 
+> This can be stopped by pressing *Ctrl + C* when you're done. Or run this in another Terminal window.
+
 We should now be able to browse to http://localhost:8000/ and view an empty page, with no errors in the browser's console.
 
+What we will see in the console is logging about Phaser starting up, with library version information, and then some information about the three states that are entered. Since the project we're using has a Boot, Preloader, and MainMenu state, we see all three listed. We'll go into the key parts of these states later.
 
-
-
-
-> This part of the tutorial is in progress.
-
-
-
-
-
-
-
-
+## Next Steps
+In our next part we'll start going over the game/project we'll be creating, determining what we might need for it. While we may have done this as part one, I already have an idea of what we'll be creating, so I'll be detailing it instead.
 
 ## What the _Starter VS Code Project Provides
 - assets
