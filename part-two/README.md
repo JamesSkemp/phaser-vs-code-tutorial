@@ -1,5 +1,5 @@
 # Part Two: New Project
-In order to simplify things, we'll be using a basic starter project for our new project.
+In [part one](../part-one) of the tutorial we talked about the kind of game that we'd be creating. In order to simplify things, in part two we'll be using a basic starter project for our new project.
 
 [My Phaser Tutorials on GitHub](https://github.com/JamesSkemp/PhaserTutorials) includes a couple starter projects. We'll use the [_Starter VS Code](https://github.com/JamesSkemp/PhaserTutorials/tree/master/_Starter%20VS%20Code) project for the benefits it includes, which are detailed below.
 
