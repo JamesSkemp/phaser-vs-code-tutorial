@@ -27,10 +27,10 @@ If you're using ImageMagick you can run the following command in Terminal to bre
 
 This results in 55 new images created in the directory it is run in, named **enemy0.png**, **enemy1.png**, ..., **enemy54.png**, with the last five images being color swatches that we shouldn't need.
 
-For the purposes of this tutorial I'm going to keep only the first five enemies.
+For the purposes of this tutorial I'm going to keep only the first five enemies. Since we're not yet going to combine these, we'll go ahead and put the five enemy images in the assets directory of our project.
 
-> This tutorial is in progress.
-
+## Next Steps
+Now that we have our assets we'll start putting these to use so we can see something, before we work on the actual logic behind the game.
 
 [lucky-enemies]: https://luckycassette.itch.io/lucky-bestiary-gb
 [imagemagick]: https://www.imagemagick.org
