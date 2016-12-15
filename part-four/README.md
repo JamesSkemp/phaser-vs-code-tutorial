@@ -36,6 +36,28 @@ If we build our project (Shift + Command + B) and then refresh our web site we s
 
 ## Displaying Assets
 
+While we may eventually want to build out a main menu, we'll leave that for later and create our main game state.
+
+Copy the **_ExampleState.ts** file and rename it to **MainGame.ts**, since `Game` is already used for the project as a whole. Rename all instances of `ExampleState` to `MainGame` within this file.
+
+We'll need to register our new state by going into **Game.ts** and add the following line in the `constructor()` function, below the other related state additions.
+
+	this.state.add('MainGame', MainGame);
+
+Now in the MainMenu state we can have it automatically start our new `MainGame` state, adding the following at the bottom of the `create()` function.
+
+	this.game.state.start('MainGame', true, false);
+
+Back in our `MainGame` we'll go ahead and add an enemy to the page, by adding the following at the bottom of the `create()` function.
+
+	this.game.add.sprite(0, 0, 'enemy0');
+
+Now build our project (Shift + Command + B) and load the site to test. This should display the sprite in the top left corner, albeit relatively small.
+
+![Sprite in the top left corner of the game](../tutorial-images/part-four-first-image.png)
+
+
+
 > This section is in progress.
 
 
