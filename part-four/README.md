@@ -56,16 +56,32 @@ Now build our project (Shift + Command + B) and load the site to test. This shou
 
 ![Sprite in the top left corner of the game](../tutorial-images/part-four-first-image.png)
 
+Let's make a few changes and put it in the center of the game world. We'll do this by changing where the image is placed first.
 
+Let's also create a new variable to store a reference to our current enemy, by adding the following above the `init()` function.
 
-> This section is in progress.
+	currentEnemy: Phaser.Sprite;
 
+Then we'll update our code that adds the enemy sprite.
 
+	this.currentEnemy = this.game.add.sprite(this.game.world.centerX, this.game.world.centerY, 'enemy0');
 
+If we build our code and refresh the page the enemy sprite does appear to be in the center of the game world.
 
+However, if we increase the size of our enemy sprite by adding the following below our code to add the enemy we'll see something different.
+
+	this.currentEnemy.scale.set(10);
+
+![Scaled sprite offset from the center](../tutorial-images/part-four-second-image.png)
+
+The sprite will actually use the top left corner to determine where it should be positioned. For this reason, you should either take into account the width and height of the image, or better still, reset the anchor point of the image to the center.
+
+	this.currentEnemy.anchor.setTo(0.5);
+
+With this addition and another build and refresh you should find that the image is now in the center of the game world.
 
 ## Next Steps
-> to be determined
+Now that we have an enemy sprite displaying in the game we can go about interacting with it. In the next part of this tutorial we'll allow enemies to be tapped/clicked on.
 
 [lucky-enemies]: https://luckycassette.itch.io/lucky-bestiary-gb
 [imagemagick]: https://www.imagemagick.org
