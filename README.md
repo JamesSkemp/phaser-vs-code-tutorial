@@ -18,7 +18,8 @@ You can safely substitute any assets you'd like, such as from [OpenGameArt.org][
 - [Part Two: New Project](part-two)
 - [Part Three: Prepping Assets](part-three)
 - [Part Four: Loading and Displaying Assets](part-four)
-- Part Five: tbd
+- [Part Five: Interacting with an Enemy](part-five)
+- Part Six: tbd
 
 [vscode]: http://code.visualstudio.com/docs/setup/setup-overview
 [nodejs]: https://nodejs.org/en/download/
